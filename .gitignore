@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+ven/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data files (keep structure but ignore large data)
+data/*.csv
+!data/.gitkeep
+
+# Output files (regenerated)
+output/*.png
+output/*.pdf
+output/*.pkl
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp
